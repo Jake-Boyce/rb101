@@ -1,0 +1,6 @@
+s = 'abc'
+puts s.public_methods.inspect
+
+In order to only print out the methods defined in the string class,
+line 2 should be changed to:
+puts s.public_methods(false).inspect

@@ -1,0 +1,2 @@
+The method to load a YAML file in Ruby is in the Psych module.
+Psych::load_file

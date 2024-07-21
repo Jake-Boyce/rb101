@@ -1,0 +1,6 @@
+a = [5, 9, 3, 11]
+puts a.min
+
+In order to print the two smallest values in the array, line 2
+should be changed to:
+puts a.min(2)

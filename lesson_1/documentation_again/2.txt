@@ -1,0 +1,14 @@
+The first puts statements will print:
+-4712-01-01
+Date::civil is a class method with the optional parameters: year=-4712,
+yday=1, start=Date::ITALY
+
+The second puts statement will print:
+2016-01-01
+The method is called with the argument 2016 which will set the year parameter.
+
+The third puts statement will print:
+2016-05-01
+
+The fourth puts statement will print:
+2016-05-13
